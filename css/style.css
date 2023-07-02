@@ -1,0 +1,539 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Arsenal&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+/**main**/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  align-items: center;
+}
+
+/**slider**/
+.services-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5%;
+}
+
+.services-image {
+  position: relative;
+  width: 25%;
+}
+
+.services-hover-image {
+  width: 100%;
+  height: 250px;
+}
+
+.services-image:hover {
+  opacity: 0.5;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons > button {
+  padding: 5px 25px;
+  margin: 0 5px;
+  background-color: transparent;
+  border: 3px solid #EC6B03;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttons > button:hover {
+  background-color: #EC6B03;
+  color: #EC6B03;
+}
+
+.main-button {
+  padding: 5px 25px;
+  margin: 5%;
+  background-color: #fff;
+  border: 3px solid #EC6B03;
+  border-radius: 25px;
+}
+
+/**header**/
+.header-logo {
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 45px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  font-family: "Arsenal";
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+#toggler,
+.navbar label {
+  display: none;
+}
+
+/**main**/
+.your-dreams {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.your-dreams_card {
+  margin-right: 25%;
+}
+
+.your-dreams_head {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 100;
+  font-size: 80px;
+}
+
+.orange-button {
+  width: 400px;
+  height: 70px;
+  margin-top: 5%;
+  background-color: #EC6B03;
+  color: #fff;
+  border-color: transparent;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 20px;
+}
+
+.women-photo {
+  margin-top: 10%;
+}
+
+.about {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.about-us {
+  margin-top: 5%;
+}
+.about-us_p {
+  margin-right: 13%;
+  margin-left: 13%;
+  margin-top: 3%;
+  font-family: "Arsenal";
+  font-size: 36px;
+}
+.about-us_button {
+  width: 280px;
+  height: 75px;
+  margin-top: 5%;
+  border: 3px solid;
+  -o-border-image: linear-gradient(to bottom, #EC6B03, #4E8810) 1;
+     border-image: linear-gradient(to bottom, #EC6B03, #4E8810) 1;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+.about-us .about-us_p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.about-us_h1 {
+  font-family: "Tenor Sans", sans-serif;
+  color: #EC6B03;
+  font-size: 76px;
+  font-weight: 100;
+}
+
+/**WAY**/
+.way {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.way_about {
+  margin-top: 5%;
+  font-family: "Tenor Sans", sans-serif;
+  color: #4E8810;
+  font-size: 76px;
+  font-weight: 100;
+}
+.way_client {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+.way_client_text {
+  float: left;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 6%;
+}
+.way_client_photo {
+  width: 50%;
+}
+
+/**footer**/
+.dark-footer {
+  background-color: #111111;
+  padding: 10%;
+}
+.dark-footer_contacts {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 90px;
+  font-weight: 100;
+  color: #fff;
+}
+.dark-footer_numbers {
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: "Arsenal";
+  font-size: 18px;
+}
+.dark-footer_copyright {
+  font-family: "Arsenal";
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10%;
+}
+
+/**NEWS**/
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card-row_news {
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.card-row_news > p {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+}
+.card-row_news > img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.card-row :after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**about company**/
+/**how we work**/
+.how-we-work {
+  width: 50%;
+  margin: 0 auto;
+}
+.how-we-work_div {
+  width: 100%;
+  margin-bottom: 10%;
+}
+.how-we-work_p {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+/**contacts**/
+.dark_numbers {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+.dark_numbers_p {
+  margin-left: 5%;
+  color: #000000;
+  font-family: "Arsenal";
+  font-size: 18px;
+}
+
+.contacts {
+  margin-left: 14%;
+  margin-top: 3%;
+}
+.contacts_info > h1 {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 72px;
+  font-weight: 100;
+}
+.contacts_city {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 3%;
+}
+.contacts_numbers {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 3%;
+}
+.contacts_p {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 22px;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.map {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.map_contacts {
+  display: flex;
+  margin: 0 auto;
+}
+
+/**LOGIN/REGISTRATION**/
+.form {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  font-family: "Jost", sans-serif;
+  background: linear-gradient(to bottom, #111111, #EC6B03, #111111);
+}
+
+.main {
+  width: 350px;
+  height: 500px;
+  background: red;
+  overflow: hidden;
+  background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/cover;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+}
+
+#chk {
+  display: none;
+}
+
+.signup {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+label {
+  color: #fff;
+  font-size: 2.3em;
+  justify-content: center;
+  display: flex;
+  margin: 60px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+input {
+  width: 60%;
+  height: 20px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.reg {
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #EC6B03;
+  background: #eee;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.login {
+  height: 460px;
+  background: #fff;
+  border-radius: 60%/10%;
+  transform: translateY(-180px);
+  transition: 0.8s ease-in-out;
+}
+
+.login label {
+  color: #EC6B03;
+  transform: scale(0.6);
+}
+
+#chk:checked ~ .login {
+  transform: translateY(-500px);
+}
+
+#chk:checked ~ .login label {
+  transform: scale(1);
+}
+
+#chk:checked ~ .signup label {
+  transform: scale(0.6);
+}
+
+/**MEDIA**/
+@media screen and (max-width: 600px) {
+  .menu {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+  }
+  .list {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .navbar label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  #toggler:checked ~ .menu {
+    max-height: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .dark-footer {
+    padding: 5%;
+  }
+  .your-dreams_card {
+    margin-left: 5%;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .way_client_photo {
+    display: none;
+  }
+  .map_contacts {
+    width: 75%;
+  }
+  .your-dreams_card {
+    margin-left: 5%;
+  }
+  .your-dreams_head {
+    font-size: 48px;
+  }
+  .contacts_info {
+    margin-left: -5%;
+  }
+  .dark_numbers {
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about-us_h1 {
+    font-size: 26px;
+  }
+  html {
+    width: 100%;
+  }
+  .way_client_photo {
+    display: none;
+  }
+  .way_client_text {
+    padding: 0%;
+    text-align: center;
+    font-size: 24px;
+  }
+  .way_about {
+    font-size: 36px;
+  }
+  .dark-footer {
+    padding: 0%;
+    width: 100%;
+  }
+  .dark-footer_icons {
+    display: none;
+  }
+  .dark-footer_contacts {
+    font-size: 36px;
+    margin-top: 25%;
+  }
+  .dark-footer_numbers {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-left: 2%;
+    padding: 5%;
+  }
+  .map_contacts {
+    width: 100%;
+  }
+  .your-dreams_head {
+    font-size: 36px;
+    padding-left: 25%;
+  }
+  .orange-button {
+    margin-left: 15%;
+    width: 300px;
+  }
+  .contacts_info {
+    margin-right: 15%;
+  }
+  .contacts_info > h1 {
+    font-size: 48px;
+  }
+  .dark_numbers {
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+  .dark_numbers_p {
+    margin: 3%;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 45px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.form {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  font-family: "Jost", sans-serif;
+  background: linear-gradient(to bottom, #111111, #EC6B03, #111111);
+}
+
+.order-card {
+  width: 750px;
+  height: 500px;
+  background: red;
+  overflow: hidden;
+  background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/cover;
+  border-radius: 10px;
+}
+
+.signup {
+  width: 100%;
+  height: 100%;
+}
+
+label {
+  color: #fff;
+  font-size: 2.3em;
+  justify-content: center;
+  display: flex;
+  margin: 60px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.telephone {
+  width: 300px;
+  height: 20px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.order-text {
+  width: 700px;
+  height: 300px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.send {
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #EC6B03;
+  background: #eee;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.dark-footer {
+  background-color: #111111;
+  padding: 10%;
+}
+.dark-footer_contacts {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 90px;
+  font-weight: 100;
+  color: #fff;
+}
+.dark-footer_numbers {
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: "Arsenal";
+  font-size: 18px;
+}
+.dark-footer_copyright {
+  font-family: "Arsenal";
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10%;
+}/*# sourceMappingURL=style2.css.map */
